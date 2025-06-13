@@ -3,17 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="5; url=5_telaAzul.html">
     <title>Desktop</title>
 
     <style>
-    body {
-      background-image: url('windows11-alt1-wallpaper.webp');
-      background-size: 1300px 600px;
+
+      .fadeIn{
+        background-color: black;
+        animation: 500ms fadeIn;
+        
     }
+
+
+     h1{
+      color: white;
+      position: absolute;
+      top: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: black;
+      animation: 500ms fadeIn;
+
+      background-image: url('windows11-wallpaper.jpg');
+      background-size: cover;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+   
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+
+   
+    header {
+      background-color: rgb(238, 238, 238);
+      padding: 0.35rem 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: relative;
+      top: 490px;
+      z-index: 5;
+      display: flex;
+      justify-content: center;  
+      align-items: center;      
+      gap: 10px; 
+    }
+
+    
+    header img {
+      width: 35px; 
+      height: 35px; 
+      object-fit: cover;
+    }
+
+   
+    .windows-img {
+      margin-left: 0;
+    }
+
+   
+    .windows-img + a img {
+      margin-left: 10px; 
+    }
+
+   
+
   </style>
 </head>
 <body>
+
+  
+  <a href="5_telaAzul.html">
+    <img src="lixeira.png" alt="Lixeira">
+  </a>
+  
+  <h1>Lixeira</h1>
     
+  <header>
+    <a href="5_telaAzul.html">
+      <img src="windows-11.png" alt="Windows" class="windows-img">
+    </a>
+
+    <a href="5_telaAzul.html">
+      <img src="Edge-logo-1024x1024.png" alt="Edge">
+    </a>
+
+    <a href="5_telaAzul.html">
+      <img src="store.png" alt="Store">
+    </a>
+
+    <a href="5_telaAzul.html">
+      <img src="chome.png" alt="Chrome">
+    </a>
+  </header>
 </body>
 </html>
